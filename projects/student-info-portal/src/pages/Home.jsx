@@ -4,7 +4,9 @@ function Home() {
   return (
     <>
       <Navbar />
-      <p>Test</p>
+      <main>
+        <h1>Student Information Portal</h1>
+      </main>
     </>
   )
 }

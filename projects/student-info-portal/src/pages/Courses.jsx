@@ -19,12 +19,14 @@ function Courses() {
       <Navbar />
       <main>
         <h1>Courses</h1>
-        {courses.map((course) => (
-          <CourseCard
-            key={course.name}
-            name={course.name}
-          />
-        ))}
+        <div className="card-grid">
+          {courses.map((course) => (
+            <CourseCard
+              key={course.name}
+              name={course.name}
+            />
+          ))}
+        </div>
       </main>
     </>
   )

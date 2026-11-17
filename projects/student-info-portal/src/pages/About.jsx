@@ -4,7 +4,9 @@ function About() {
   return (
     <>
       <Navbar />
-      <p>Test</p>
+      <main>
+        <p>This is a Student Information Portal</p>
+      </main>
     </>
   )
 }

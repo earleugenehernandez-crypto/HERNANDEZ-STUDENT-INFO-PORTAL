@@ -15,12 +15,14 @@ function Students() {
       <Navbar />
       <main>
         <h1>Students</h1>
-        {students.map((student) => (
-          <StudentCard
-            key={student.name}
-            name={student.name}
-          />
-        ))}
+        <div className="card-grid">
+          {students.map((student) => (
+            <StudentCard
+              key={student.name}
+              name={student.name}
+            />
+          ))}
+        </div>
       </main>
     </>
   )
